@@ -32,10 +32,12 @@ namespace ISRPO_Palashicheva_PR10
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-            ListBoxItem li = (ListBoxItem)listbox1.Items[listbox1.SelectedIndex];
-            listbox1.Items.Remove(li);
-            // или так listbox1.Items.Remove(listbox1.SelectedItem);
+            listbox1.Items.Remove(listbox1.SelectedItem);
+        }
 
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            listbox1.Items.SortDescriptions.Add(new System.ComponentModel.SortDescription("Content", System.ComponentModel.ListSortDirection.Ascending));
         }
     }
 }
