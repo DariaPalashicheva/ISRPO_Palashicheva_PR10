@@ -13,12 +13,42 @@
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0">
             <ListBox Name="listbox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Height="200">
-            <ListBoxItem Content="Coffe"></ListBoxItem>
-            <ListBoxItem Content="Tea"></ListBoxItem>
-            <ListBoxItem Content="Orange Juice"></ListBoxItem>
-            <ListBoxItem Content="Milk"></ListBoxItem>
-            <ListBoxItem Content="Iced Tea"></ListBoxItem>
-                <ListBoxItem Content="Mango Shake"></ListBoxItem>
+            <ListBoxItem Foreground="Red" FontFamily="Verdana" FontWeight="Bold" Background="#FFF3D6D6">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Image/cof.png" Height="30"></Image>
+                        <TextBlock Text="Coffie"></TextBlock>
+                    </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Foreground="Black" FontFamily="Verdana" FontWeight="Bold" Background="#FFF1F1F1">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Image/teea.png" Height="30"></Image>
+                        <TextBlock Text="Tea"></TextBlock>
+                    </StackPanel>
+                </ListBoxItem>
+            <ListBoxItem Foreground="#FFA022A0" FontFamily="Verdana" FontWeight="Bold" Background="#FF79DAEA">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Image/orange.png" Height="30"></Image>
+                        <TextBlock Text="Orange Juice"></TextBlock>
+                    </StackPanel>
+                </ListBoxItem>
+            <ListBoxItem Foreground="#FF318347" FontFamily="Verdana" FontWeight="Bold" Background="#FFD4E8D0">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Image/milk.png" Height="30"></Image>
+                        <TextBlock Text="Milk"></TextBlock>
+                    </StackPanel>
+                </ListBoxItem>
+            <ListBoxItem Foreground="#FF2B39BF" FontFamily="Verdana" FontWeight="Bold" Background="#FF79DAEA">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Image/teea.png" Height="30"></Image>
+                        <TextBlock Text="Iced Tea"></TextBlock>
+                    </StackPanel>
+                </ListBoxItem>
+            <ListBoxItem Foreground="#FFFFBE89" FontFamily="Verdana" FontWeight="Bold" Background="#FF9BA4AC">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Image/shake.png" Height="30"></Image>
+                        <TextBlock Text="Mango Shake"></TextBlock>
+                    </StackPanel>
+                </ListBoxItem>
             </ListBox>
             <TextBox Height="23" HorizontalAlignment="Left" Name="textbox1" VerticalAlignment="Top" Width="193"/>
         </StackPanel>
