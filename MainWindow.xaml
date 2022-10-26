@@ -14,40 +14,52 @@
         <StackPanel Grid.Row="0">
             <ListBox Name="listbox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Height="200">
             <ListBoxItem Foreground="Red" FontFamily="Verdana" FontWeight="Bold" Background="#FFF3D6D6">
-                    <StackPanel Orientation="Horizontal">
-                        <Image Source="Image/cof.png" Height="30"></Image>
-                        <TextBlock Text="Coffie"></TextBlock>
-                    </StackPanel>
-            </ListBoxItem>
+                    <CheckBox x:Name="CoffieCB">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Image/cof.png" Height="30"></Image>
+                            <TextBlock Text="Coffie"></TextBlock>
+                        </StackPanel>
+                    </CheckBox>
+             </ListBoxItem>
             <ListBoxItem Foreground="Black" FontFamily="Verdana" FontWeight="Bold" Background="#FFF1F1F1">
-                    <StackPanel Orientation="Horizontal">
-                        <Image Source="Image/teea.png" Height="30"></Image>
-                        <TextBlock Text="Tea"></TextBlock>
-                    </StackPanel>
+                    <CheckBox x:Name="tEACB">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Image/teea.png" Height="30"></Image>
+                            <TextBlock Text="Tea"></TextBlock>
+                        </StackPanel>
+                    </CheckBox>
                 </ListBoxItem>
             <ListBoxItem Foreground="#FFA022A0" FontFamily="Verdana" FontWeight="Bold" Background="#FF79DAEA">
-                    <StackPanel Orientation="Horizontal">
-                        <Image Source="Image/orange.png" Height="30"></Image>
-                        <TextBlock Text="Orange Juice"></TextBlock>
-                    </StackPanel>
+                    <CheckBox x:Name="OrangeCB">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Image/orange.png" Height="30"></Image>
+                            <TextBlock Text="Orange Juice"></TextBlock>
+                        </StackPanel>
+                    </CheckBox>
                 </ListBoxItem>
             <ListBoxItem Foreground="#FF318347" FontFamily="Verdana" FontWeight="Bold" Background="#FFD4E8D0">
-                    <StackPanel Orientation="Horizontal">
-                        <Image Source="Image/milk.png" Height="30"></Image>
-                        <TextBlock Text="Milk"></TextBlock>
-                    </StackPanel>
+                    <CheckBox x:Name="MilkCB">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Image/milk.png" Height="30"></Image>
+                            <TextBlock Text="Milk"></TextBlock>
+                        </StackPanel>
+                    </CheckBox>
                 </ListBoxItem>
             <ListBoxItem Foreground="#FF2B39BF" FontFamily="Verdana" FontWeight="Bold" Background="#FF79DAEA">
-                    <StackPanel Orientation="Horizontal">
-                        <Image Source="Image/teea.png" Height="30"></Image>
-                        <TextBlock Text="Iced Tea"></TextBlock>
-                    </StackPanel>
+                    <CheckBox x:Name="IcedCB">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Image/teea.png" Height="30"></Image>
+                            <TextBlock Text="Iced Tea"></TextBlock>
+                        </StackPanel>
+                    </CheckBox>
                 </ListBoxItem>
             <ListBoxItem Foreground="#FFFFBE89" FontFamily="Verdana" FontWeight="Bold" Background="#FF9BA4AC">
-                    <StackPanel Orientation="Horizontal">
-                        <Image Source="Image/shake.png" Height="30"></Image>
-                        <TextBlock Text="Mango Shake"></TextBlock>
-                    </StackPanel>
+                    <CheckBox x:Name="MangoCB">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Image/shake.png" Height="30"></Image>
+                            <TextBlock Text="Mango Shake"></TextBlock>
+                        </StackPanel>
+                    </CheckBox>
                 </ListBoxItem>
             </ListBox>
             <TextBox Height="23" HorizontalAlignment="Left" Name="textbox1" VerticalAlignment="Top" Width="193"/>
@@ -56,6 +68,8 @@
         <Button Height="23" Margin="0,0,5,0"  Name="button1" Click="button1_Click" VerticalAlignment="Top">Add Item</Button>
             <Button Height="23" Margin="0,0,5,0" Name="button2" Click="button2_Click" VerticalAlignment="Top">Delete Item</Button>
             <Button Height="23" Margin="0,0,5,0" Name="button3" Click="button3_Click" VerticalAlignment="Top">Sort</Button>
+            <Button Height="23" Margin="0,5,5,0" Name="Zd2" Click="Zd2_Click" VerticalAlignment="Top" Width="160">Задание2</Button>
+            <Button Height="23" Margin="0,5,5,0" Name="Individ" Click="Individ_Click" VerticalAlignment="Top" Width="160">Индивидуальное задание</Button>
         </WrapPanel>
     </Grid>
 </Window>

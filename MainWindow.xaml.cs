@@ -39,5 +39,16 @@ namespace ISRPO_Palashicheva_PR10
         {
             listbox1.Items.SortDescriptions.Add(new System.ComponentModel.SortDescription("Content", System.ComponentModel.ListSortDirection.Ascending));
         }
+
+        private void Zd2_Click(object sender, RoutedEventArgs e)
+        {
+            Window a = new Window1();
+            a.Show();
+        }
+
+        private void Individ_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
