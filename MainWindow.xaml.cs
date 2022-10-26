@@ -48,7 +48,8 @@ namespace ISRPO_Palashicheva_PR10
 
         private void Individ_Click(object sender, RoutedEventArgs e)
         {
-
+            Window a = new Window2();
+            a.Show();
         }
     }
 }

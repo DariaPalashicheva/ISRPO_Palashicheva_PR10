@@ -16,10 +16,10 @@
                 <ListBoxItem>Gray</ListBoxItem>
                 <ListBoxItem>LightGray</ListBoxItem>
                 <ListBoxItem>Red</ListBoxItem>
-                </ListBox>
-                <TextBox Height="23" Name="textBox1" Width="120" Margin="10,10,0,0" HorizontalAlignment="Left">
+            </ListBox>
+            <TextBox Height="23" Name="textBox1" Width="120" Margin="10,10,0,0" HorizontalAlignment="Left">
                 <TextBox.Text>
-                        <Binding ElementName="mcLB" Path="SelectedItem.Content"/>
+                    <Binding ElementName="mcLB" Path="SelectedItem.Content"/>
                 </TextBox.Text>
             </TextBox>
             <Canvas Margin="10,10,0,0" Height="200" Width="200" HorizontalAlignment="Left">
@@ -28,6 +28,5 @@
                 </Canvas.Background>
             </Canvas>
         </StackPanel>
-        
     </Grid>
 </Window>
